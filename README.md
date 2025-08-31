@@ -14,10 +14,10 @@ Technologies en cours d' apprentissage : HTML, CSS, JavaScript, Node.js, Réact,
 
 ## 📂 Structure du portfolio:
 
-→ Front-End/HTML,CSS:
+1️⃣ Front-End/HTML,CSS:
   - TripAdvisor
     
-→ Front-End/JavaScript:
+1️⃣ Front-End/JavaScript:
 - Currency-Converter
 - Favorite-movies
 - Request-Countries-and-Capitals
