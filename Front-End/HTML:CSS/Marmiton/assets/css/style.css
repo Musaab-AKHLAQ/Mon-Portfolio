@@ -1,0 +1,105 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+section {
+  background-color: white;
+  padding: 60px 30px;
+  border-radius: 20px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #393c6c;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f3735f;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #393c6c;
+  line-height: 22px;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #f3735f;
+}
+
+header img {
+  height: 30px;
+  margin: 20px;
+}
+
+main > div {
+  padding-top: 60px;
+}
+
+.baseline {
+  text-align: center;
+  font-size: 12px;
+  color: #6c6c6c;
+  line-height: 30px;
+}
+
+.total {
+  width: 400px;
+  background-color: #8a98b1;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  margin: 30px auto 60px auto;
+  border-radius: 10px;
+}
+
+.crepes-images > img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  vertical-align: middle; /* 👉 vertical-align: middle; permet d’éviter qu’une image paraisse un peu décalée en bas ou en haut, surtout si elles ont des hauteurs légèrement différentes.*/
+}
+
+.crepes-images > img:not(:last-child) {
+  margin-right: 28px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  line-height: 25px;
+  list-style-type: disc;
+  color: #6c6c6c;
+}
+
+footer {
+  text-align: center;
+  padding: 60px 0;
+  color: #6c6c6c;
+  font-size: 12px;
+}
