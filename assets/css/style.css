@@ -1,0 +1,530 @@
+/* commun rules */
+body {
+  font-family: "Trip Sans Med";
+  font-size: 20px;
+}
+
+.container {
+  height: 100%;
+  max-width: 1135px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* titles*/
+h1 {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+  font-size: 18px;
+}
+/* header */
+header {
+  height: 60px;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 190px;
+  height: 60px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav div {
+  margin-right: 20px;
+}
+
+header button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-family: "Trip Sans Med";
+}
+
+/* main */
+.container h1 {
+  padding-top: 30px;
+}
+
+h1 span {
+  color: #ff5c5d;
+}
+
+.small-text {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: gray;
+}
+
+.navigation-menu {
+  display: flex;
+  padding-bottom: 26px;
+}
+
+.navigation-menu div {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: black 1px solid;
+  padding: 12px 15px;
+  border-radius: 14px;
+  align-items: center;
+  min-width: 0;
+}
+.navigation-menu div span {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.navigation-menu div i {
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+.navigation-menu div:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.main-pictures {
+  height: 430px;
+  display: flex;
+}
+
+.col-1 {
+  height: 100%;
+  flex: 1;
+  margin-right: 2px;
+}
+
+.col-1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.col-2 {
+  height: 100%;
+  width: 480px;
+}
+
+.col-2 img {
+  width: 100%;
+  height: calc(50% - 2px);
+  object-fit: cover;
+}
+
+.line {
+  font-size: 12px;
+  color: grey;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line > div:first-child {
+  display: flex;
+}
+
+.line > div:first-child > span:nth-child(even) {
+  margin: 0 5px;
+}
+
+.line > div:first-child > span:nth-child(odd):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.description {
+  min-height: 472px;
+  margin-bottom: 80px;
+  display: flex;
+}
+
+.description .col-1,
+.description .col-2 {
+  flex: 1;
+}
+
+.description h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.description p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 24px;
+  color: #333333;
+}
+
+.description .col-2 div:first-child {
+  background-color: #ff5c5d;
+  padding: 32px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  flex: 1;
+  min-height: 300px;
+}
+
+.col-2 h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+.description .col-2 p {
+  font-size: 16px;
+  margin-bottom: 24px;
+  font-family: "Trip Sans Med";
+}
+
+.description button {
+  height: 54px;
+  width: 154px;
+  border-radius: 14px;
+  background-color: black;
+  color: white;
+  font-family: "Trip Sans Med";
+  border: none;
+  outline: none;
+}
+
+.description .col-2 div:last-child {
+  background-image: url(../img/maps.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  background-position: center;
+  flex: 1;
+  min-height: 300px;
+}
+
+.section-1 {
+  margin-bottom: 120px;
+}
+
+.section-1 > div {
+  height: 350px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.section-1 .col-1 {
+  height: 100%;
+  width: calc(100% / 4);
+  padding-right: 30px;
+}
+
+.section-1 .col-1 p {
+  margin: 20px 0px;
+  color: #474747;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 21.6px;
+}
+
+.section-1 .col-1 span {
+  font-size: 16px;
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.section-1 .col-2 {
+  height: 100%;
+  width: calc(100% / 4 * 3);
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.section-1 .col-caroussel {
+  height: 100%;
+  width: calc(100% / 3 - (40px / 3));
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.section-1 .col-caroussel:not(:last-child) {
+  margin-right: 20px;
+}
+
+.section-1 .col-caroussel > div:first-child {
+  width: 100%;
+  height: 195px;
+  position: relative;
+}
+
+.section-1 .col-caroussel > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-1 .circle {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1 .tripadvisor-label {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  overflow: hidden;
+}
+
+.section-1 h5 {
+  margin: 6px 0px;
+}
+
+/*div :nth-child(2 ca signifie 	•	Pas d’espace avant :nth-child() → enfant direct.
+•	Avec espace → descendant à n’importe quel niveau.
+*/
+.section-1 .col-2 .col-caroussel > div:nth-child(2) {
+  margin-top: 5px;
+}
+.section-1 .col-2 p {
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #474747;
+  margin-top: 10px;
+}
+
+.section-1 .col-2 .col-caroussel > div:nth-child(2) span {
+  color: #474747;
+  font-size: 12px;
+}
+
+.section-2 .end {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.section-2 .end > div {
+  flex: 1; /* chaque div prend la même largeur */
+  max-width: 30%; /* évite que ça dépasse */
+}
+
+.section-2 .end > div > div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.section-2 .end img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.section-2 .end img.icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 50px;
+}
+
+.section-2 p,
+.section-2 span {
+  font-size: 14px;
+}
+
+.section-2 p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.section-2 .end > div > div span:nth-of-type(2) {
+  font-weight: bold;
+}
+
+/* footer */
+footer {
+  height: 156px;
+  background-color: #faf1ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+/* Hidden elements */
+
+header .container > i {
+  display: none;
+}
+
+.navigation-menu > div:nth-child(6),
+.navigation-menu > div:nth-child(7) {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1328px) {
+  .navigation-menu > div:nth-child(6),
+  .navigation-menu > div:nth-child(7) {
+    display: flex;
+  }
+  .navigation-menu div:not(:last-child) {
+    margin-right: 0px;
+  }
+  .navigation-menu {
+    flex-wrap: wrap;
+  }
+  .navigation-menu > div {
+    min-width: calc(100% / 4 - (60px / 4));
+  }
+  .navigation-menu > div:not(:nth-child(4n)) {
+    margin-right: 20px;
+  }
+  .navigation-menu > div:nth-child(1),
+  .navigation-menu > div:nth-child(2),
+  .navigation-menu > div:nth-child(3),
+  .navigation-menu > div:nth-child(4) {
+    margin-bottom: 20px;
+  }
+
+  .main-pictures {
+    height: 375px;
+  }
+
+  .col-2 {
+    width: 400px;
+  }
+}
+@media (max-width: 1024px) {
+  header nav span {
+    display: none;
+  }
+
+  .main-pictures {
+    height: 300px;
+  }
+
+  .col-2 {
+    width: 320px;
+  }
+
+  .description {
+    flex-direction: column;
+  }
+  .description .col-1,
+  .description .col-2 {
+    flex: 1;
+    width: 100%;
+  }
+
+  .description .col-2 {
+    flex: 1;
+    display: flex;
+  }
+
+  .description .col-2 > div {
+    flex: 1;
+    width: 50%;
+  }
+
+  .description .col-1 p {
+    margin-bottom: 30px;
+  }
+  .description .col-2 div:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+  }
+  .description .col-2 div:last-child {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+  }
+}
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  header .container > i {
+    display: flex;
+  }
+
+  .main-pictures .col-2 {
+    display: none;
+  }
+  .no-padding {
+    padding: 0px;
+  }
+  .description .col-2 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .description .col-2 div:first-child,
+  .description .col-2 div:last-child {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .description .col-2 div:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .description .col-2 div:last-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
