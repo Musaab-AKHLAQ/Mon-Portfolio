@@ -1,0 +1,14 @@
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 900,
+    "wght" 900,
+    "GRAD" 0,
+    "opsz" 200;
+  font-size: 100px;
+  color: rgb(101, 0, 196);
+}
+
+.title {
+  font-size: 60px;
+  margin-left: 50px;
+}

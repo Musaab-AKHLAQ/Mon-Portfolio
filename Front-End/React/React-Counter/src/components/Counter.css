@@ -1,0 +1,49 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.Big-Btn {
+  font-size: 80px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.Small-Btn {
+  font-size: 25px;
+  background-color: #5c48d3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 130px;
+  cursor: pointer;
+}
+
+.Counter {
+  font-size: 80px;
+  background-color: #5c48d3;
+  color: white;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.Reset {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

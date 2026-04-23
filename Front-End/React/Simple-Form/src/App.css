@@ -1,0 +1,91 @@
+.container {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.results > div {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 20px;
+  background-color: rgb(239, 239, 239);
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 40px;
+  margin: 5px 0 25px 0;
+  box-sizing: border-box;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.submit-button,
+.back-button {
+  width: 300px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #5c47d3;
+  margin-top: 20px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+}
+
+.submit-button,
+.back-button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 30px 0 30px 0;
+  font-weight: bold;
+}
+
+form span {
+  font-size: 12px;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+a {
+  font-weight: bolder;
+}
+
+.password-icon {
+  position: relative;
+  left: -30px;
+  top: 8px;
+  cursor: pointer;
+}

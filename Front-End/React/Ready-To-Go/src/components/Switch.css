@@ -1,0 +1,23 @@
+.switch {
+  margin: 30px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.on,
+.off {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blueviolet;
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.on {
+  background-color: blueviolet;
+  color: white;
+}

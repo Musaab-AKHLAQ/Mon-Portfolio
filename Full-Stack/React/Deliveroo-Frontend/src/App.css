@@ -1,0 +1,240 @@
+header {
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.logo {
+  width: 190px;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.upper-container {
+  background-color: white;
+}
+.hero {
+  padding: 30px 0;
+  display: flex;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 19px;
+  color: #868a8a;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+.hero-img img {
+  width: 350px;
+  height: 197px;
+  border-radius: 5px;
+}
+
+.menu-left-container {
+  max-width: 820px;
+  width: 100%;
+}
+
+.category-container h3 {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+.meals-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.meal-container {
+  height: 160px;
+  width: calc(49%);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+  background-color: white;
+  margin-bottom: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.meal-container:active {
+  transform: scale(0.95);
+}
+
+.meal-container:hover {
+  box-shadow: 10px 10px 60px rgba(126, 126, 126, 0.437);
+}
+
+.meal-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 15px;
+}
+
+.meal-text h4 {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.meal-text p {
+  font-size: 13px;
+  color: #9f9f9f;
+}
+
+.popular-star {
+  color: #ff8001;
+  font-weight: bold;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.meal-img img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cart-right-container {
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  background-color: white;
+  width: 350px;
+  box-sizing: border-box;
+  margin: 30px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(186, 186, 186, 0.437);
+}
+
+.validate-btn {
+  width: 100%;
+  height: 51px;
+  background-color: #02cdbd;
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.validate-btn:active {
+  transform: scale(0.95);
+}
+
+.cart-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.cart-line {
+  display: flex;
+  padding: 16px 0px;
+  font-weight: 100;
+}
+
+.cart-line-left {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.btn-qty {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: #02cdbd solid 2px;
+  color: #02cdbd;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.cart-item-quantity span {
+  color: #9f9f9f;
+}
+.cart-item-title {
+  width: 179px;
+  padding-left: 5px;
+}
+
+.cart-total-result {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-subTotal-fees {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  border-top: #d1d7d7 solid 1px;
+  border-bottom: #d1d7d7 solid 1px;
+}
+
+.cart-line-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-total {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.empty-cart-btn {
+  width: 100%;
+  height: 51px;
+  background-color: #bac3c3;
+  color: rgb(158, 158, 158);
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.cart-empty-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 15px;
+  font-weight: 100;
+  color: #9f9f9f;
+}

@@ -1,0 +1,98 @@
+.container {
+  max-width: 1200px;
+  padding: 30px 60px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+}
+
+.timer-icon {
+  font-size: 70px;
+  font-weight: bold;
+  color: #5c48d3;
+}
+
+h1 {
+  font-size: 30px;
+  margin-left: 70px;
+}
+main {
+  margin-top: 80px;
+}
+main section:first-child {
+  display: flex;
+  justify-content: center;
+}
+
+main section:first-child button {
+  font-size: 18px;
+  padding: 5px 30px;
+  background-color: #5c48d3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main section:first-child button:hover {
+  background-color: #5c48d3;
+}
+
+main section:last-child {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.control button {
+  font-size: 50px;
+  padding: 10px 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.control span {
+  font-size: 50px;
+  padding: 10px 25px;
+  background-color: #5c48d3;
+  color: white;
+  border-radius: 5px;
+}
+
+.reset-btn {
+  margin-top: 50px;
+}
+
+.reset-btn button {
+  font-size: 15px;
+  padding: 5px 20px;
+  background-color: #5c48d3;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.footer span {
+  font-weight: bold;
+}

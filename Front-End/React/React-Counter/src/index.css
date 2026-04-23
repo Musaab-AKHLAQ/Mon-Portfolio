@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
