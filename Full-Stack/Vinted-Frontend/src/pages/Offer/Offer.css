@@ -1,0 +1,102 @@
+.offer-body-background {
+  background-color: #eaedee;
+  height: calc(100vh - 80px);
+  width: 100%;
+}
+
+.offer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 90%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  background-color: #eaedee;
+  padding: 20px;
+}
+
+.pic-section {
+  width: 40%;
+}
+
+.pic-section img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.details-section {
+  background-color: white;
+  width: 30%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.details-section img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+h3 {
+  font-size: 50px;
+
+  margin-bottom: 30px;
+}
+.offer-list {
+  display: flex;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.offer-list p {
+  flex: 1;
+}
+
+.offer-list p:first-child {
+  color: #999999;
+}
+
+.offer-list p:last-child {
+  color: #666666;
+  font-weight: bold;
+}
+
+.offer-detail {
+  border-top: #e7e7e7 solid 1px;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.offer-detail p:first-child {
+  color: black;
+  font-weight: bold;
+}
+
+.offer-detail p:last-child {
+  color: #666666;
+  margin: 20px 0px;
+}
+
+.offer-avatar-username {
+  display: flex;
+  align-items: center;
+}
+
+.offer-avatar-username span {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.buy-btn {
+  height: 36px;
+  width: 100%;
+  color: white;
+  background-color: #017782;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
